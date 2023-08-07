@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover" />
   <link rel="manifest" href="manifest.json" />
   <title>iOS rotation repro</title>
+  <style>
+    body {
+      padding-left: calc(env(safe-area-inset-left, 0px) + 10px);
+      padding-top: calc(env(safe-area-inset-top, 0px) + 10px);
+      padding-right: calc(env(safe-area-inset-right, 0px) + 10px);
+      padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 10px);
+    }
+  </style>
 </head>
 <body>
   <div>
